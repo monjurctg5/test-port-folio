@@ -44,8 +44,9 @@ span{
     animation: name 4s infinite;
 }
 @keyframes name{
-    from {color: orange;}
-    to {color: yellow;}
+    from {color: orange; font-size: 0px;}
+    to {color: yellow; font-size: 40px;}
+
 }
 .half-width h1{
     font-size: 40px;
