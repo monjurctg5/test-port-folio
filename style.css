@@ -38,15 +38,13 @@ body{
     from{width: 10%;}
     to{width: 100%;}
 }
-.half-width span{
-    color: orange;
-}
-span:hover{
-    color: gray;
-    animation: name 2s infinite;
+
+span{
+
+    animation: name 4s infinite;
 }
 @keyframes name{
-    from {color: red;}
+    from {color: orange;}
     to {color: yellow;}
 }
 .half-width h1{
