@@ -45,11 +45,11 @@ span{
 }
 @keyframes name{
     from {color: orange; font-size: 0px;}
-    to {color: yellow; font-size: 40px;}
+    to {color: yellow; font-size: 20px;}
 
 }
 .half-width h1{
-    font-size: 40px;
+    font-size: 20px;
 }
 
 button,a{
