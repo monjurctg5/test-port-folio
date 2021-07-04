@@ -1,0 +1,112 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+    box-sizing: border-box;
+    animation: body-effect 3s; 
+}
+@keyframes body-effect{
+    from{width: 0%;}
+    to{width: 100%;}
+}
+
+.first-sec{
+    display: flex;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+
+
+.secound-sec{
+    display: flex;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+
+.half-width img{
+    width: 100%;
+    animation: change-width 3s;
+}
+@keyframes change-width{
+    from{width: 10%;}
+    to{width: 100%;}
+}
+.half-width span{
+    color: orange;
+}
+span:hover{
+    color: gray;
+    animation: name 2s infinite;
+}
+@keyframes name{
+    from {color: red;}
+    to {color: yellow;}
+}
+.half-width h1{
+    font-size: 40px;
+}
+
+button,a{
+    background-image: linear-gradient(orange,tomato);
+    border-radius: 6px;
+    padding: 10px 40px;
+    margin-top: 10px;
+    color: white;
+    text-decoration: none;
+}
+button:hover,a{
+    background:none;
+    color: black;
+}
+.experience-container{
+    display: flex;
+    margin-left: 120px;
+}
+.one{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-image: linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    border-left: solid 7px;
+
+}
+.two{
+    box-shadow: 10px 10px 30px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border-image: linear-gradient(blue,tomato);
+    border-image-slice: 1;
+    border-left: solid 7px;
+    
+
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    color: orange;
+}
+
+
+footer{
+    text-align: center;
+    box-shadow: gray;
+}
+p:hover{
+    font-size:large;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+}
